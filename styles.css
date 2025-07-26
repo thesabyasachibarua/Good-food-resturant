@@ -9,21 +9,19 @@
 
 /* Banner styles */
 .head-part{
-    background-color: aqua;
-    /* text-align: center; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     height: 725px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 
-    background: url('./assets/banner-2.png');
+    background: url('./assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 150px;
+    /* fill: linear-gradient(180deg, #090909 3.48%, rgba(16, 16, 16, 0.00) 101.63%); */
+    border-image-source: linear-gradient(0deg, #090909 3.48%, rgba(16, 16, 16, 0.00) 101.63%);
+    border-image-slice: fill 1;
 }
 
 .hero-part{
